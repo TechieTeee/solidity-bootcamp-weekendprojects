@@ -1,4 +1,15 @@
 # Weekend Project 1 - Report
+
+
+Background for ERC20 Permit
+"ERC20 core set of contracts is designed to be unopinionated, allowing developers to access the internal functions in ERC20 (such as _mint) and expose them as external functions in the way they prefer. On the other hand, ERC20 Presets (such as ERC20PresetMinterPauser) are designed using opinionated patterns to provide developers with ready to use, deployable contracts."
+https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Permit
+
+
+"Snapshots are created by the internal _snapshot function, which will emit the Snapshot event and return a snapshot id. To get the total supply at the time of a snapshot, call the function totalSupplyAt with the snapshot id. To get the balance of an account at the time of a snapshot, call the balanceOfAt function with the snapshot id and the account address."
+https://docs.openzeppelin.com/contracts/4.x/api/token/erc20#ERC20Snapshot
+
+
 ## Scripts run
 *  1. Deployment the contract
 *  2. Query the proposals
